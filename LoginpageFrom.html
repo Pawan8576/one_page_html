@@ -1,0 +1,92 @@
+<head>  
+   <link rel="stylesheet" type="text/css" href="css/style.css"/>  
+</head>
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 384px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 21 0 0 453px;  
+        padding: 81px;  
+        background: #23463f;  
+        border-radius: 16px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 21px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 18px;  
+}  
+#Uname{  
+    width: 301px;  
+    height: 31px;  
+    border: none;  
+    border-radius: 4px;  
+    padding-left: 9px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 31px;  
+    border: none;  
+    border-radius: 4px;  
+    padding-left: 9px;  
+      
+}  
+#log{  
+    width: 301px;  
+    height: 31px;  
+    border: none;  
+    border-radius: 18px;  
+    padding-left: 8px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 18px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>    
+<body>    
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
+</body>    
+</html>     
